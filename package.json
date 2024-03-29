@@ -20,7 +20,8 @@
     "prepare": "husky install && dumi setup",
     "prepublishOnly": "father doctor && npm run build",
     "start": "npm run dev",
-    "release": "sh ./scripts/release-it.sh"
+    "pre:release": "sh ./scripts/release-it.sh",
+    "release": "release-it ci"
   },
   "commitlint": {
     "extends": [
