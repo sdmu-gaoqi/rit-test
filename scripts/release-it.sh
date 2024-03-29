@@ -15,7 +15,8 @@ gitCheckBranch () {
 }
 
 release() {
-    npm run release
+    yarn
+    yarn run release
 }
 
 gitCheckBranch
