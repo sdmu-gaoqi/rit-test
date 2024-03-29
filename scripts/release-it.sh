@@ -9,7 +9,7 @@ getMessageInfo () {
 
  git fetch --all
  git checkout ${GITBRANCH}
- git reemote -v
+ git remote -v
 }
 
 getMessageInfo
