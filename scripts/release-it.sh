@@ -15,7 +15,7 @@ gitCheckBranch () {
 }
 
 release() {
-    npm release-it --ci
+    npm run release
 }
 
 gitCheckBranch
