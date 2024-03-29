@@ -45,16 +45,6 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "dependencies": {
-    "@types/js-cookie": "^3.0.3",
-    "@types/uuid": "^9.0.2",
-    "copy-to-clipboard": "^3.3.3",
-    "dayjs": "^1.11.9",
-    "eventemitter3": "^5.0.1",
-    "js-cookie": "^3.0.5",
-    "lodash": "^4.17.21",
-    "nanoid": "^4.0.2"
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
