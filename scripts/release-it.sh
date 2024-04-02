@@ -16,7 +16,6 @@ gitCheckBranch () {
 }
 
 release() {
-    echo "//registry.npmjs.org/:_authToken=${NPMTOKEN}" > ~/.npmrc
     yarn run release
 }
 
