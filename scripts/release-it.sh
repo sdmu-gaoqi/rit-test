@@ -15,7 +15,7 @@ gitCheckBranch () {
 }
 
 release() {
-    yarn
+    yarn --registry=https://registry.npmjs.org
     yarn run release
 }
 
