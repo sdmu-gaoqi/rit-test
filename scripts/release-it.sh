@@ -1,4 +1,5 @@
 GITBRANCH=$1
+NPMTOKEN=$2
 
 gitCheckBranch () {
  echo '开始执行'

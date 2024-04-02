@@ -22,7 +22,7 @@ jobs:
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - run: yarn
-      - run: npm run preRelease ${{github.event.pull_request.base.ref}}
+      - run: npm run preRelease ${{github.event.pull_request.base.ref}} ${{ secrets.NPM_TOKEN }}
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
           GITHUB_TOKEN: ${{secrets.GIT_TOKEN}}
