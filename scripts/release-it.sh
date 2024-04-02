@@ -1,4 +1,5 @@
 GITBRANCH=$1
+NPMTOKEN=$2
 
 gitCheckBranch () {
  echo '开始执行'
@@ -15,6 +16,7 @@ gitCheckBranch () {
 }
 
 release() {
+    echo "//registry.npmjs.org/:_authToken=${NPMTOKEN}" > ~/.npmrc
     yarn run release
 }
 
