@@ -15,7 +15,7 @@ gitCheckBranch () {
 }
 
 release() {
-    yarn --registry=https://registry.npmjs.org
+    yarn --registry=https://registry.npm.taobao.org
     yarn run release
 }
 
