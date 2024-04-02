@@ -12,5 +12,5 @@
       "waUtils/*": ["src/*", "*"]
     }
   },
-  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*", "global.d.ts"]
+  "include": [".dumirc.ts", "src/**/*", "global.d.ts"]
 }
